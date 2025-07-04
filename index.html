@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>ESPE Tasks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background: #0B1E1B;
+      margin: 0;
+      font-family: sans-serif;
+      color: white;
+    }
+
+    header {
+      background-color: #112d2c;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ESPE Tasks</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Tareas</a>
+      <a href="#">Acerca de</a>
+    </nav>
+  </header>
+
+  <main>
+    <espe-task-list></espe-task-list>
+  </main>
+
+  <script type="module" src="./components/espe-task-list.js"></script>
+</body>
+</html>

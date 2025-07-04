@@ -1,0 +1,16 @@
+{
+  "name": "u2lab1_mejiaanthony",
+  "version": "1.0.0",
+  "description": "To-Do List con LitElement - Laboratorio 1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "keywords": ["lit", "todo", "espe", "litElement"],
+  "author": "Anthony Mejía",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^3.3.0"
+  }
+}
