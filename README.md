@@ -73,7 +73,8 @@ Nota: Elaboración propia (2025). Las tareas se organizan por nivel de prioridad
 
 # Autor
 - Anthony Mejia
-- Proyecto personal con LitElement
+- agmejia2@espe.edu.ec
+
 
 
 
